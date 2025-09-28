@@ -20,7 +20,8 @@
 		</ol>
 		<p class="max-w-1/2">
 			After extracting the downloaded zip folder, open Chrome and navigate to the Extensions page.
-			Then, point the "Load unpacked" option to the "dist" folder to run the extension locally.
+			Then, enable dev mode and point the "Load unpacked" option to the "dist" folder to run the
+			extension locally.
 		</p>
 	</main>
 
