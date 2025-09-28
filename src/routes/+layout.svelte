@@ -8,6 +8,7 @@
 </script>
 
 <svelte:head>
+	<title>Altimate</title>
 	<link rel="icon" href="{BASE}/favicon.png" />
 </svelte:head>
 
