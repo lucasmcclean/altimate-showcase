@@ -1,6 +1,5 @@
 <script>
 	import Link from '$lib/Link.svelte';
-	//
 </script>
 
 <div class="flex h-screen max-h-screen flex-col px-4 xs:px-8">
