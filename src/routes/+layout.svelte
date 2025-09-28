@@ -1,13 +1,14 @@
 <script lang="ts">
 	import '/logo.png';
 	import '../app.css';
-	import { resolve } from 'path';
+
+	const BASE = import.meta.env.BASE_URL;
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={resolve('/favicon.png')} />
+	<link rel="icon" href="{BASE}/favicon.png" />
 </svelte:head>
 
 <div>

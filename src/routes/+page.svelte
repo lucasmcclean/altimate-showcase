@@ -1,6 +1,7 @@
 <script>
 	import Link from '$lib/Link.svelte';
-	import { resolve } from 'path';
+
+	const BASE = import.meta.env.BASE_URL;
 </script>
 
 <div class="flex h-screen max-h-screen flex-col px-4 text-lg xs:px-8">
@@ -9,7 +10,7 @@
 		<p class="flex justify-between text-2xl font-light xs:text-4xl sm:text-5xl">(/ˈʌl.tɪ.mɪt/)</p>
 		<div class="mt-4 flex flex-wrap justify-center gap-x-8 text-xl xs:text-2xl sm:text-3xl">
 			<Link href="https://github.com/lucasmcclean/altimate" external>GitHub</Link>
-			<Link href="/extension.zip" download>Download Extension</Link>
+			<Link href="{BASE}/extension.zip" download>Download Extension</Link>
 		</div>
 		<ol class="align-center mt-4 flex w-1/2 flex-wrap justify-center gap-x-2 xs:justify-between">
 			<li>Dhruv Goel</li>
@@ -24,7 +25,7 @@
 	</main>
 
 	<footer class="flex justify-between py-4 sm:py-8">
-		<img class="max-w-16 self-start" src={resolve('/logo.png')} alt="Altimate logo" />
+		<img class="max-w-16 self-start" src="{BASE}/logo.png" alt="Altimate logo" />
 		<p class="font-display">//</p>
 	</footer>
 </div>
