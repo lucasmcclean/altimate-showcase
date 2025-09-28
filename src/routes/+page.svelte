@@ -1,5 +1,6 @@
 <script>
 	import Link from '$lib/Link.svelte';
+	import { resolve } from 'path';
 </script>
 
 <div class="flex h-screen max-h-screen flex-col px-4 text-lg xs:px-8">
@@ -23,7 +24,7 @@
 	</main>
 
 	<footer class="flex justify-between py-4 sm:py-8">
-		<img class="max-w-16 self-start" src="/logo.png" alt="Altimate logo" />
+		<img class="max-w-16 self-start" src={resolve('/logo.png')} alt="Altimate logo" />
 		<p class="font-display">//</p>
 	</footer>
 </div>
