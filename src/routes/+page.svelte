@@ -10,7 +10,7 @@
 		<p class="flex justify-between text-2xl font-light xs:text-4xl sm:text-5xl">(/ˈʌl.tɪ.mɪt/)</p>
 		<div class="mt-4 flex flex-wrap justify-center gap-x-8 text-xl xs:text-2xl sm:text-3xl">
 			<Link href="https://github.com/lucasmcclean/altimate" external>GitHub</Link>
-			<Link href="{BASE}/extension.zip" download>Download Extension</Link>
+			<Link href="{BASE}/extension.zip" download="extension.zip">Download Extension</Link>
 		</div>
 		<ol class="align-center mt-4 flex w-1/2 flex-wrap justify-center gap-x-2 xs:justify-between">
 			<li>Dhruv Goel</li>
